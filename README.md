@@ -2,7 +2,7 @@
 
 Bu SwiftUI tabanlı iOS uygulaması, temel müzik çalar özelliklerini barındıran modern bir arayüze sahiptir. Kullanıcılar şarkılar arasında geçiş yapabilir, ileri/geri sarabilir, ses seviyesini ayarlayabilir, favori şarkılarını belirleyebilir ve karışık çalma modunu etkinleştirebilir.
 
-##Özellikler
+#Özellikler
 
 - Şarkı listesi (grid görünümlü kartlar)
 - Favorilere ekleme/çıkarma
