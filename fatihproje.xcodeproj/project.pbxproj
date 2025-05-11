@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831519B52DD0AEF70055E7FF /* fatihprojeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831519B42DD0AEF70055E7FF /* fatihprojeApp.swift */; };
+		831519B72DD0AEF70055E7FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831519B62DD0AEF70055E7FF /* ContentView.swift */; };
+		831519B92DD0AEF80055E7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831519B82DD0AEF80055E7FF /* Assets.xcassets */; };
+		831519BC2DD0AEF80055E7FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831519BB2DD0AEF80055E7FF /* Preview Assets.xcassets */; };
+		831519BE2DD0AEF80055E7FF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831519BD2DD0AEF80055E7FF /* Persistence.swift */; };
+		831519C12DD0AEF80055E7FF /* fatihproje.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 831519BF2DD0AEF80055E7FF /* fatihproje.xcdatamodeld */; };
+		831519C82DD0AF8C0055E7FF /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831519C72DD0AF8C0055E7FF /* Song.swift */; };
+		831519CA2DD0AFA90055E7FF /* MusicPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831519C92DD0AFA90055E7FF /* MusicPlayerViewModel.swift */; };
+		831519D52DD0B4300055E7FF /* bekleyenim_clear.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 831519D32DD0B4300055E7FF /* bekleyenim_clear.m4a */; };
+		831519D62DD0B4300055E7FF /* bosu_bosuna_clean.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 831519D42DD0B4300055E7FF /* bosu_bosuna_clean.m4a */; };
+		831519D82DD0B5BE0055E7FF /* SongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831519D72DD0B5BE0055E7FF /* SongListView.swift */; };
+		831519DF2DD0B6D30055E7FF /* bekleyenim.png in Resources */ = {isa = PBXBuildFile; fileRef = 831519DD2DD0B6D30055E7FF /* bekleyenim.png */; };
+		831519E02DD0B6D30055E7FF /* bosu_bosuna.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 831519DE2DD0B6D30055E7FF /* bosu_bosuna.jpeg */; };
+		831519E22DD0B9310055E7FF /* zeynepbastik_lan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 831519E12DD0B9300055E7FF /* zeynepbastik_lan.m4a */; };
+		831519E42DD0B9820055E7FF /* zeynepbastik_lan.png in Resources */ = {isa = PBXBuildFile; fileRef = 831519E32DD0B9820055E7FF /* zeynepbastik_lan.png */; };
+		831519E62DD0C1A20055E7FF /* imkansiz_var.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 831519E52DD0C1A20055E7FF /* imkansiz_var.m4a */; };
+		831519E82DD0C1F90055E7FF /* imkansiz_var.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 831519E72DD0C1F90055E7FF /* imkansiz_var.jpeg */; };
+		831519EA2DD0C28A0055E7FF /* amanguzelyavasyuru.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 831519E92DD0C28A0055E7FF /* amanguzelyavasyuru.jpeg */; };
+		831519EC2DD0C2E10055E7FF /* amanguzelyavasyuru.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 831519EB2DD0C2E00055E7FF /* amanguzelyavasyuru.m4a */; };
+		831519EE2DD0C4740055E7FF /* FavoriteSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831519ED2DD0C4740055E7FF /* FavoriteSongsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		831519B12DD0AEF70055E7FF /* fatihproje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fatihproje.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831519B42DD0AEF70055E7FF /* fatihprojeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fatihprojeApp.swift; sourceTree = "<group>"; };
+		831519B62DD0AEF70055E7FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		831519B82DD0AEF80055E7FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		831519BB2DD0AEF80055E7FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		831519BD2DD0AEF80055E7FF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		831519C02DD0AEF80055E7FF /* fatihproje.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fatihproje.xcdatamodel; sourceTree = "<group>"; };
+		831519C72DD0AF8C0055E7FF /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		831519C92DD0AFA90055E7FF /* MusicPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewModel.swift; sourceTree = "<group>"; };
+		831519D32DD0B4300055E7FF /* bekleyenim_clear.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bekleyenim_clear.m4a; sourceTree = "<group>"; };
+		831519D42DD0B4300055E7FF /* bosu_bosuna_clean.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bosu_bosuna_clean.m4a; sourceTree = "<group>"; };
+		831519D72DD0B5BE0055E7FF /* SongListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListView.swift; sourceTree = "<group>"; };
+		831519DD2DD0B6D30055E7FF /* bekleyenim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bekleyenim.png; path = ../../bekleyenim.png; sourceTree = "<group>"; };
+		831519DE2DD0B6D30055E7FF /* bosu_bosuna.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bosu_bosuna.jpeg; path = ../../bosu_bosuna.jpeg; sourceTree = "<group>"; };
+		831519E12DD0B9300055E7FF /* zeynepbastik_lan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = zeynepbastik_lan.m4a; sourceTree = "<group>"; };
+		831519E32DD0B9820055E7FF /* zeynepbastik_lan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zeynepbastik_lan.png; sourceTree = "<group>"; };
+		831519E52DD0C1A20055E7FF /* imkansiz_var.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = imkansiz_var.m4a; sourceTree = "<group>"; };
+		831519E72DD0C1F90055E7FF /* imkansiz_var.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imkansiz_var.jpeg; sourceTree = "<group>"; };
+		831519E92DD0C28A0055E7FF /* amanguzelyavasyuru.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amanguzelyavasyuru.jpeg; sourceTree = "<group>"; };
+		831519EB2DD0C2E00055E7FF /* amanguzelyavasyuru.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = amanguzelyavasyuru.m4a; sourceTree = "<group>"; };
+		831519ED2DD0C4740055E7FF /* FavoriteSongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSongsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831519AE2DD0AEF70055E7FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831519A82DD0AEF70055E7FF = {
+			isa = PBXGroup;
+			children = (
+				831519B32DD0AEF70055E7FF /* fatihproje */,
+				831519B22DD0AEF70055E7FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831519B22DD0AEF70055E7FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831519B12DD0AEF70055E7FF /* fatihproje.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831519B32DD0AEF70055E7FF /* fatihproje */ = {
+			isa = PBXGroup;
+			children = (
+				831519EB2DD0C2E00055E7FF /* amanguzelyavasyuru.m4a */,
+				831519E52DD0C1A20055E7FF /* imkansiz_var.m4a */,
+				831519E12DD0B9300055E7FF /* zeynepbastik_lan.m4a */,
+				831519D32DD0B4300055E7FF /* bekleyenim_clear.m4a */,
+				831519D42DD0B4300055E7FF /* bosu_bosuna_clean.m4a */,
+				831519B42DD0AEF70055E7FF /* fatihprojeApp.swift */,
+				831519B62DD0AEF70055E7FF /* ContentView.swift */,
+				831519B82DD0AEF80055E7FF /* Assets.xcassets */,
+				831519E92DD0C28A0055E7FF /* amanguzelyavasyuru.jpeg */,
+				831519E72DD0C1F90055E7FF /* imkansiz_var.jpeg */,
+				831519E32DD0B9820055E7FF /* zeynepbastik_lan.png */,
+				831519DD2DD0B6D30055E7FF /* bekleyenim.png */,
+				831519DE2DD0B6D30055E7FF /* bosu_bosuna.jpeg */,
+				831519BD2DD0AEF80055E7FF /* Persistence.swift */,
+				831519BF2DD0AEF80055E7FF /* fatihproje.xcdatamodeld */,
+				831519BA2DD0AEF80055E7FF /* Preview Content */,
+				831519C72DD0AF8C0055E7FF /* Song.swift */,
+				831519C92DD0AFA90055E7FF /* MusicPlayerViewModel.swift */,
+				831519D72DD0B5BE0055E7FF /* SongListView.swift */,
+				831519ED2DD0C4740055E7FF /* FavoriteSongsView.swift */,
+			);
+			path = fatihproje;
+			sourceTree = "<group>";
+		};
+		831519BA2DD0AEF80055E7FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				831519BB2DD0AEF80055E7FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831519B02DD0AEF70055E7FF /* fatihproje */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831519C42DD0AEF90055E7FF /* Build configuration list for PBXNativeTarget "fatihproje" */;
+			buildPhases = (
+				831519AD2DD0AEF70055E7FF /* Sources */,
+				831519AE2DD0AEF70055E7FF /* Frameworks */,
+				831519AF2DD0AEF70055E7FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fatihproje;
+			productName = fatihproje;
+			productReference = 831519B12DD0AEF70055E7FF /* fatihproje.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831519A92DD0AEF70055E7FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					831519B02DD0AEF70055E7FF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 831519AC2DD0AEF70055E7FF /* Build configuration list for PBXProject "fatihproje" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 831519A82DD0AEF70055E7FF;
+			productRefGroup = 831519B22DD0AEF70055E7FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831519B02DD0AEF70055E7FF /* fatihproje */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831519AF2DD0AEF70055E7FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831519E22DD0B9310055E7FF /* zeynepbastik_lan.m4a in Resources */,
+				831519BC2DD0AEF80055E7FF /* Preview Assets.xcassets in Resources */,
+				831519E42DD0B9820055E7FF /* zeynepbastik_lan.png in Resources */,
+				831519EC2DD0C2E10055E7FF /* amanguzelyavasyuru.m4a in Resources */,
+				831519E82DD0C1F90055E7FF /* imkansiz_var.jpeg in Resources */,
+				831519D52DD0B4300055E7FF /* bekleyenim_clear.m4a in Resources */,
+				831519E62DD0C1A20055E7FF /* imkansiz_var.m4a in Resources */,
+				831519E02DD0B6D30055E7FF /* bosu_bosuna.jpeg in Resources */,
+				831519EA2DD0C28A0055E7FF /* amanguzelyavasyuru.jpeg in Resources */,
+				831519B92DD0AEF80055E7FF /* Assets.xcassets in Resources */,
+				831519D62DD0B4300055E7FF /* bosu_bosuna_clean.m4a in Resources */,
+				831519DF2DD0B6D30055E7FF /* bekleyenim.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831519AD2DD0AEF70055E7FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831519BE2DD0AEF80055E7FF /* Persistence.swift in Sources */,
+				831519CA2DD0AFA90055E7FF /* MusicPlayerViewModel.swift in Sources */,
+				831519B72DD0AEF70055E7FF /* ContentView.swift in Sources */,
+				831519B52DD0AEF70055E7FF /* fatihprojeApp.swift in Sources */,
+				831519C12DD0AEF80055E7FF /* fatihproje.xcdatamodeld in Sources */,
+				831519D82DD0B5BE0055E7FF /* SongListView.swift in Sources */,
+				831519C82DD0AF8C0055E7FF /* Song.swift in Sources */,
+				831519EE2DD0C4740055E7FF /* FavoriteSongsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		831519C22DD0AEF90055E7FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		831519C32DD0AEF90055E7FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		831519C52DD0AEF90055E7FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fatihproje/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FatihAsker.fatihproje;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		831519C62DD0AEF90055E7FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fatihproje/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FatihAsker.fatihproje;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831519AC2DD0AEF70055E7FF /* Build configuration list for PBXProject "fatihproje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831519C22DD0AEF90055E7FF /* Debug */,
+				831519C32DD0AEF90055E7FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831519C42DD0AEF90055E7FF /* Build configuration list for PBXNativeTarget "fatihproje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831519C52DD0AEF90055E7FF /* Debug */,
+				831519C62DD0AEF90055E7FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		831519BF2DD0AEF80055E7FF /* fatihproje.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				831519C02DD0AEF80055E7FF /* fatihproje.xcdatamodel */,
+			);
+			currentVersion = 831519C02DD0AEF80055E7FF /* fatihproje.xcdatamodel */;
+			path = fatihproje.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 831519A92DD0AEF70055E7FF /* Project object */;
+}
